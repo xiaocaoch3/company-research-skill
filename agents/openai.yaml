@@ -1,0 +1,4 @@
+interface:
+  display_name: "Company Research"
+  short_description: "Evidence-first company research and due diligence"
+  default_prompt: "Use $company-research to analyze a company objectively for my decision."
