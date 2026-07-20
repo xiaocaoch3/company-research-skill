@@ -57,6 +57,7 @@ Identify, infer safely, or ask only when necessary:
 - **Research objective:** investment evaluation, interview preparation, company understanding, product analysis, competitive analysis, market-entry decision, or another objective.
 - **Decision to support:** whether to invest, apply, accept an offer, compete, partner, enter a market, or continue monitoring.
 - **Scope and timing:** company entity, geography, business line, relevant period, and desired depth.
+- **Economic boundary:** listed company, parent group, subsidiaries, associates, key counterparties, and similarly named or affiliated third parties. Determine which activities actually accrue revenue, profit, assets, or liabilities to the entity being analyzed.
 
 If the role is unspecified and would materially change the answer, clarify it. Otherwise state a reasonable assumption and proceed. Generate research questions before searching, and let the objective determine information priority.
 
@@ -87,6 +88,30 @@ Analyze upstream suppliers, components, raw materials, technology, intellectual 
 Analyze downstream customers, users, channels, distributors, platforms, developers, partners, and use cases. Assess concentration, channel dependence, access to end users, pricing power, and changes in demand.
 
 For platform, internet, or professional-service companies, map ecosystem participants and value flow instead of forcing a linear manufacturing supply chain.
+
+For company or investment research, include value-chain analysis whenever it could materially affect revenue, margins, growth, risk, or valuation. Do not omit a material link merely to keep the answer short, but do not force a manufacturing-style chain onto every company.
+
+First identify the company's operating archetype and economic chain. Then generate a small set of industry-specific research questions before collecting evidence. Trace the path from critical inputs or ecosystem dependencies through the company's operations to channels, customers, and end demand. Identify where bargaining power, bottlenecks, risk, and profit concentrate, and explain how they affect the analyzed company.
+
+Adapt the investigation to the business rather than applying every example:
+
+- for manufacturing or consumer goods, relevant topics may include raw materials, capacity, make-versus-buy decisions, contract manufacturing, inventory stages, distributors, and sell-through;
+- for software or cloud businesses, relevant topics may include infrastructure dependencies, third-party platforms, developers, implementation partners, acquisition channels, switching costs, and renewals;
+- for platforms or marketplaces, relevant topics may include each participant group, liquidity, governance, take rates, disintermediation, and value flow;
+- for financial businesses, relevant topics may include funding sources, balance-sheet providers, distribution, underwriting, regulation, credit risk, and capital requirements;
+- for resource, healthcare, service, or other businesses, derive the equivalent chain from the actual operating model and disclosed value drivers.
+
+Treat these as routing examples, not a universal checklist. Investigate only the links that are material, and state why omitted links are not decision-relevant when that is not obvious.
+
+#### Resolve economic attribution boundaries
+
+Where corporate, brand, production, licensing, franchise, or platform relationships could change economic attribution, do not infer ownership from a shared name, location, logo family, parent group, distributor relationship, or operating address. Separate as relevant:
+
+- products and operations consolidated by the analyzed company;
+- products and operations belonging to its parent, sister companies, associates, or joint ventures;
+- independent counterparties, service providers, licensees, franchisees, and similarly named or affiliated third parties.
+
+For each material activity, determine which entity controls it, which entity bears the risk, and where the resulting revenue, profit, assets, or liabilities are reported. Use the relationship dimensions relevant to the business, such as ownership, production, licensing, distribution, funding, data control, or customer contracts. If public evidence cannot establish the boundary, label it as an information gap rather than assuming inclusion or exclusion.
 
 #### Locate value capture
 
@@ -161,7 +186,7 @@ For each material issue, explain its evidence quality, affected business or metr
 
 #### Investment mode
 
-Emphasize business quality, industry structure, competitive advantages, growth, financial quality, valuation, market expectations, risks, monitoring indicators, and decision-relevant uncertainty. Distinguish a good company from a good investment at the current price.
+Emphasize business quality, industry structure, material value-chain relationships, competitive advantages, growth, financial quality, valuation, market expectations, risks, monitoring indicators, and decision-relevant uncertainty. Adapt value-chain questions to the company's actual operating model. Distinguish a good company from a good investment at the current price.
 
 #### Job-seeker mode
 
@@ -191,12 +216,14 @@ Cover these questions in an order suited to the request:
 
 1. What does the company do, and for whom?
 2. How does it create and capture value?
-3. What industry and value-chain position does it occupy?
-4. Why does it win, and how durable is that advantage?
-5. Where could future growth come from?
-6. Do financial or operating results validate the story?
-7. What confirmed problems, plausible risks, and information gaps matter?
-8. What would prove the analysis wrong?
-9. What decision does the evidence support?
+3. Which entities, dependencies, counterparties, channels, or ecosystem participants materially affect the economics attributed to the analyzed company?
+4. How does the relevant industry value chain work, and where do bargaining power, bottlenecks, risk, and profit concentrate?
+5. What industry and value-chain position does the company occupy?
+6. Why does it win, and how durable is that advantage?
+7. Where could future growth come from?
+8. Do financial or operating results validate the story?
+9. What confirmed problems, plausible risks, and information gaps matter?
+10. What would prove the analysis wrong?
+11. What decision does the evidence support?
 
 Keep the response proportional to the user's desired depth. Prefer decision-relevant evidence and reasoning over encyclopedic detail. State uncertainty and confidence explicitly when evidence is incomplete or conflicting.
