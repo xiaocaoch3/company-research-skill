@@ -167,7 +167,7 @@ Emphasize business quality, industry structure, competitive advantages, growth, 
 
 Emphasize company strategy, important businesses, industry position, products, organization and culture evidence, growth opportunities, business and career risks, and what to verify during interviews.
 
-Always include verified links to the official company website and the official careers or current job-listing website. Use third-party recruiting sites only when an official channel is unavailable or as a clearly labeled supplement. Confirm links and openings are current when possible.
+In addition to the official company website required for every mode, always include a verified link to the official careers or current job-listing website. Use third-party recruiting sites only when an official channel is unavailable or as a clearly labeled supplement. Confirm links and openings are current when possible.
 
 Do not infer company-wide overtime, management quality, employee experience, or team culture from isolated anecdotes. Distinguish official culture claims from independent evidence and provide targeted interview questions for unresolved matters.
 
@@ -184,6 +184,8 @@ Emphasize industry structure, value-chain economics, unmet demand, entry barrier
 ## Output standard
 
 Lead with a concise, qualified conclusion that directly supports the user's objective. Then present the evidence and reasoning needed to evaluate it.
+
+Always include a verified link to the company's official website, regardless of the user's role or research mode. Confirm the link is current when possible.
 
 Cover these questions in an order suited to the request:
 
